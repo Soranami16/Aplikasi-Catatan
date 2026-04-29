@@ -106,7 +106,7 @@ function App() {
             <ThemeProvider value={themeContextValue}>
               <div className="app-container">
                 <header>
-                  <h1>{locale === 'id' ? 'Catatan Amah' : "Amah's Diary"}</h1>
+                  <h1>{locale === 'id' ? 'Aplikasi Catatan' : "Notes App"}</h1>
                   <nav className="navigation">
                     <ul>
                       <li><ToggleLocale /></li>
@@ -133,7 +133,7 @@ function App() {
           <ThemeProvider value={themeContextValue}>
             <div className="app-container">
               <header>
-                <h1><a href="/">{locale === 'id' ? 'Catatan Amah' : 'Notes Amah'}</a></h1>
+                <h1><a href="/">{locale === 'id' ? 'Catatan Amah' : 'Notes App'}</a></h1>
                 <nav className="navigation">
                   <ul>
                     <li> <a href="/archives">{locale === 'id' ? 'Arsip' : 'Archives'}</a></li>
